@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<title>Ventes des Guitares en ligne</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Guitar EmMy STORE</h1>
+		</header>
+		<nav>
+			<div class="table">
+				<ul>
+					<li class="menu-ind">
+						<a href="index.html">Acceuil</a>
+					</li>
+					<li class="menu-Pre">
+						<a href="Presentation de l'entreprise.html">Presentation de l'entreprise</a>
+					</li>
+					<li class="menu-Nos">
+						<a href="Nos produits.html">Nos produits</a>
+					</li>
+					<li class="menu-Con">
+						<a href="Contactez-nous.html">Contactez-nous</a>
+					</li>
+				</ul>
+			</div>
+			<div id="div0">
+        <form method="post" action="traitement.php">
+            <label for="Prenom" >Adresse electronique</label>
+                <input type="text" id="prenom" name="prenom">
+            <label for="naissance">date de naissance</label>
+                <input type="date" id="naissance" name="naissance"><br>
+            <label for="email">Adresse mail</label>
+                <input type="email" id="email" name="email"><br>
+            <label for="site">Entrer votre site</label>
+                <input type="url" id="site" name="site"><br>
+            <label for="numero">Numero</label>
+                <input type="number" id="numero" name="numero"><br>
+                sexe <br>
+                <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme">homme</label><br>
+                <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">femme</label><br>
+            Continents<br>
+            <select name="Continents">
+                <optgroup label="Civilisation">
+                    <option value="Afrique">Afrique</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asie">Asie</option>
+                    <option value="Oceanie">Oceanie</option>
+					<option value="Amerique">Amerique</option>
+                </optgroup>
+            </select><br>
+
+
+            <label for="pass">Mot de pass</label>
+                <input type="password" id="pass" name="pass">
+            
+
+                <input type="submit" value="Connection">  
+            
+
+        </form>
+    </div>
+	
+		</nav>
+		<footer>
+			<p>Copyright 2023 Guitar EmMy STORE</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,149 @@
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	background-image: url("guitare.jpg");
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 100px;
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav ul{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover, .presentation{
+	border-top: 5px solid #4C8;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
+.menu-Pre:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-Nos:hover{
+	border-top: 5px solid #0070BB;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-Ser:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-Con:hover{
+	border-top: 5px solid #FFF;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px
+	}
+}
+Body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: -webkit-linear-gradient(90deg, blue,red,white);
+    background: -moz-linear-gradient(90deg, blue,red,white);
+    background: -o-linear-gradient(90deg, blue,red,white);
+    background: linear-gradient(90deg, blue,rgb(20, 133, 226),rgb(35, 228, 163) );
+  
+}
+#div0{ 
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 175px;
+    
+}
+#div1{
+    border: 1px dashed black;
+    box-shadow: 0px 0px 10px black;
+    width: 350px;
+}
+
+#div3{ 
+    position: absolute;
+    right: 500px;
+    box-shadow: 0px 0px white;
+}
+#div4{ 
+    position: static;
+}
+#lien{ 
+    margin-top: -500px;
+}
+#Bk,#Fb,#Tube,#orange{ 
+    width: 900px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px black inset;
+}
+#Bk{ 
+    background-image: url("logo m.png");
+    background-position: 10px 0px ;
+}
+#Fb{ 
+    background-image: url("logo m.png");
+    background-position: -170px 0px ;
+    left: 130px;
+}
+#Tube{ 
+    background-image: url("logo m.png");
+    background-position: -12px -113px ;
+    left: 252px;
+}
+#span{
+	width: 900px;
+    height: 80px;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);

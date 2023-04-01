@@ -1,0 +1,76 @@
+Body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: -webkit-linear-gradient(90deg, blue,red,white);
+    background: -moz-linear-gradient(90deg, blue,red,white);
+    background: -o-linear-gradient(90deg, blue,red,white);
+    background: linear-gradient(90deg, blue,rgb(20, 133, 226),rgb(35, 228, 163) );
+  
+}
+#div0{ 
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 175px;
+    
+}
+#div1{
+    border: 1px dashed black;
+    box-shadow: 0px 0px 10px black;
+    width: 350px;
+}
+#div2{
+    width: 456px;
+    box-shadow: 0px 0px 10px black;
+    color: chocolate;
+    text-decoration: underline;
+    margin-top: -98px;
+    left: 850px;
+    position: fixed;
+}
+#div3{ 
+    position: absolute;
+    right: 500px;
+    box-shadow: 0px 0px white;
+}
+#div4{ 
+    position: static;
+}
+#lien{ 
+    margin-top: -500px;
+}
+#Bk,#Fb,#Tube,#orange{ 
+    width: 120px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px black inset;
+}
+#Bk{ 
+    background-image: url("logo m.png");
+    background-position: -9px 0px ;
+}
+#Fb{ 
+    background-image: url("logo m.png");
+    background-position: -170px 0px ;
+    left: 130px;
+}
+#Tube{ 
+    background-image: url("logo m.png");
+    background-position: -12px -113px ;
+    left: 252px;
+}
+#orange{ 
+    width: 456px;
+    height: 252px;
+    background-image: url("logo.png");
+    background-position: -12px -113px ;
+    left: 850px;
+    margin-top: -580px;
+    position: fixed;
+    background-image: none;
+    border: none;
+
+}
